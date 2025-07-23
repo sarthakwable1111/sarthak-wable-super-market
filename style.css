@@ -97,7 +97,7 @@ header h1 {
 }
 
 /* ===== Cart Info Animation ===== */
-@keyframes bump {
+keyframes bump {
   0% { transform: scale(1); }
   10% { transform: scale(1.1); }
   30% { transform: scale(1); }
@@ -107,7 +107,7 @@ header h1 {
 }
 
 /* ===== Responsive ===== */
-@media (max-width: 600px) {
+media (max-width: 600px) {
   .product-grid {
     grid-template-columns: 1fr;
     padding: 1rem;
