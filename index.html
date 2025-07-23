@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wable supermarket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌽sarthak wable super market 🛒</h1>
+        <div class="cart-info">
+            🛍️ your basket in: <span id="cart-count">0</span> items| total: ₹<span id="cart-total">0.00</span>
+        </div>
+    </header>
+
+    <main class="product-grid">
+        <div class="product" data-name="apple" data-price="80">
+            <img src="https://media.istockphoto.com/id/187420397/photo/red-apples.jpg?s=612x612&w=0&k=20&c=2gP5VblBy8wBB1aMuB9godHm_QYuKOdvb1U_f9h4Kjk=" alt="apple">
+            <h3>fresh apple</h3>
+            <p>₹80 /per.kg</p>
+            <button class="add-to-cart">buy now</button>
+        </div>
+
+        <div class="product" data-name="milk" data-price="50">
+            <img src="https://img.freepik.com/premium-photo/milk-jug-glass-cows-pasture-alpine-meadow_645697-5884.jpg?semt=ais_hybrid&w=740" alt="milk">
+            <h3>freshly milk</h3>
+            <p>₹50 /per .liter</p>
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="paneer" data-price="500+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1DWAX9ygPbGNLJd4KhH7XejiSYD3YRgJgvw&s " alt="">
+            <h3>freshly paneer</h3>
+            <p>₹500 /per .kg</p>
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="lassi" data-price="899+">
+            <img src="https://media.istockphoto.com/id/1365859011/photo/drink-mango-lassi-in-two-glasses-on-rustic-concrete-table-with-fresh-ripe-cut-manfo-from-above.jpg?s=1024x1024&w=is&k=20&c=IQAS-55ya4GWYpS8PirEFR0KdfPmYXK4hXJrVD-TxWk="alt="lassi">
+            <h3>freshly lassi</h3>
+            <p>₹899 /per .kg</p>
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="suger" data-price="40">
+            <img src="https://as1.ftcdn.net/jpg/01/97/07/78/1000_F_197077865_TYdO2OGP4z4XjGATMVYgyN0tYkuQy6FI.jpg">
+            <h3>suger</h3>
+            <p>₹40/per .kg</p>
+            <button class="add-to-cart">buy now</button>
+        </div>
+     
+        <div class="product" data-name="peanut" data-price="150">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxz1TlIIFybijHUR2GsMCiGOJXTEs0y5xh_A&s" alt="peanut">
+            <h3>peanut</h3>
+            <p>₹150/per .kg</p>
+            <button class="add-to-cart">buy now</button>
+        </div>
+ <div class="product" data-name="sunflower oil" data-price="280+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVvT1TW1lw1RIQ2wkCrFH-3CfbtG_NSmeSCw&s" alt="sunflower oil">
+            <h3>sunflower oil</h3>
+            <p>₹280/per .liter</p>
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="nel cutter" data-price="50">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXp4cfUFmtR0bEqxAqtcNj1Iq507AiN10qRg&s" alt="nel cutter">
+            <h3>nel cutter</h3>
+            <p>₹50/per .piece</p>
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="pen" data-price="30">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqN_03H6ZDW7dVIPhOveufulIBkqeCx0GWxQ&s" alt="pen">
+            <h3>pen</h3>
+            <p>₹30/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="pencil" data-price="30">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk4lDwhPWCbkPj9v6RWhhUUL39H3XHlnbX3Q&s" alt="pencil">
+            <h3>pencil</h3>
+            <p>₹30/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="kurkure" data-price="20+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5bSeKt-1BBgq_5f2YT6i8QhUfzGmjzdN9Bg&s" alt="kurkure">
+            <h3>kurkure</h3>
+            <p>₹20/per .packet
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="mava kulfi" data-price="20">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRspIjpKsbeKnk6VAfLKX53k2ru94t61bdBUQ&s" alt="mava kulfi">
+            <h3>mava kulfi</h3>
+            <p>₹20/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="vimal" data-price="25">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYylwW9Ob_hGiCcq4ye7rpE6SPdBrb9sbJNg&s" alt="vimal">
+            <h3>vimal(bolo juba kesari)</h3>
+            <p>₹25/per .packet
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="tambhaku" data-price="12">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS38Jj-5UjFN8YHeozrDXZi88CCkVxcBCLm-g&s" alt="tambhaku">
+            <h3>tambakhu(gay chaap)</h3>
+            <p>₹12/per .pudi
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="water bottle" data-price="899+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWe0-KGctnFJIY3D64QGjIcbUb6ZLOyaXiwA&s" alt="water bottle">
+            <h3>water bottle(in steel)</h3>
+            <p>₹899+/per .bottle
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="water bottle" data-price="99">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeddHtdfJ4AM2OZd9jOc1IYwho6ZOAzqFnlg&s" alt="water bottle">
+            <h3>water bottle(in plastic)</h3>
+            <p>₹99/per .bottle
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="dairy milk" data-price="99">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLP1jD0r4T8LuP7CAxDqCGuBQvBuSlUGtfFA&s" alt="dairy milk">
+            <h3>dairy milk(cadbary)</h3>
+            <p>₹99/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="rice" data-price="320">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuN4Vtazzg1kk2-amNRSEGCjO23vys7QATPQ&s" alt="rice">
+            <h3>rice</h3>
+            <p>₹320/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="wheat" data-price="20">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTgYimrflk7RV-qONYVsG9XWhFu7pgU8jnYQ&s" alt="wheat">
+            <h3>wheat</h3>
+            <p>₹20/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="salt" data-price="20">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfNFZ5xC_02iuz_89z4qpjSipEFocu7CtNlA&s" alt="salt">
+            <h3>salt</h3>
+            <p>₹20/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="turmeric" data-price="20">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBm7Pe7muI0OejUfdTneagz-aYM-0MumnbJQ&s" alt="turmaric">
+            <h3>turmaric</h3>
+            <p>₹20/per .packet
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="jaggary" data-price="45">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_KELvUaWeqhvX4rLAuhcPBgGQiPj4jdhemg&s" alt="jaggary">
+            <h3>jaggary</h3>
+            <p>₹45/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="garam masala" data-price="400+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTq0RXTqqXHf6_qA_Jawzjq9garkz44J6OA&s" alt="garam masala">
+            <h3>garam masala</h3>
+            <p>₹460/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="mirchi masala" data-price="800+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTErNMLblG2Xrt6BCJsldkpIFLoPmkI0rW08w&s" alt="mirchi masala">
+            <h3>mirchi masala</h3>
+            <p>₹799/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="lavang" data-price="1199">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRimsZPKqMg3jGpolF94OmM8iIz4YB_gNwH3Q&s" alt="lavang">
+            <h3>lavang</h3>
+            <p>₹1199/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="dhana masala" data-price="800">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5Z3jE2hN8EK1GSlhnngl5xyCTjsxrqT81g&s" alt="dhana masala">
+            <h3>dhana masala</h3>
+            <p>₹799/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="ice cream" data-price="99">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9q6JEdbGbqHugI9bLTOe3VWm_0szdtbK4Q&s" alt="ice cream">
+            <h3>ice cream</h3>
+            <p>₹99/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="tee" data-price="49.50">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtckhCGKyofykm3yhimU1vkCSDkDHhRrosA&s" alt="tee">
+            <h3>tee</h3>
+            <p>₹49/per .cup
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="cold cofee" data-price="350">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrTX3xya_BMDtb_9hpCQ5RTHqzIitbfl0Rsw&s" alt="cold cofee">
+            <h3>cold cofee</h3>
+            <p>₹350(starbuck cofee)/per .glass
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="hot cofee" data-price="249+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNfXXa8o5r0g5TJgaW_4DBVx7AQCBflEEQlQ&s" alt="hot cofee">
+            <h3>hot cofee</h3>
+            <p>₹249+(starbuck cofee)/per .glass
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="badam" data-price="2499+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPrLnQnWbAWfiRBfIM7Lm2A0ZzXhOARLGVcw&s" alt="badam">
+            <h3>badam</h3>
+            <p>₹2499+/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="kaju" data-price="1500+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI9umdnYPVc0eEumFjGV_4GnzGJqG2hIyHwQ&s" alt="badam">
+            <p>₹1499/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="banana" data-price="60">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUF47x8Ik-_qBSh6attioZsDbzVZzRgAbNQ&s" alt="banana">
+            <h3>banana</h3>
+            <p>₹60/per .dazon
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="orange" data-price="50">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFKC7wRer105_jkzHsMqCeNjPIqupFP2tsUg&s" alt="orange">
+            <h3>orange</h3>
+            <p>₹50/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="deshi daaru" data-price="80">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWDGwTnGoQU9Cyq-usuuMGUnXgLU9oXNXlVA&s" alt="deshi daaru">
+            <h3>deshi daaru(quater)/h3>
+            <p>₹80/per .quater
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="english daaru" data-price="800+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTaNpMGvQJiG5NPZ1Z493HNSeBBOPVt4Xg4g&s" alt="english daaru">
+            <h3>english daaru(quater)</h3>
+            <p>₹800+/per .quater
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="biskits" data-price="150+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD0wBBR-bXUM6jcN5u8QtOCdvbBOF-Zw3Q-g&s" alt="biskits">
+            <h3>biskits</h3>
+            <p>₹150+/per .packet
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="chocolate" data-price="99+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB0mi8fhLcqse4MTMGGXWgg6RqhiNsM1MvFw&s" alt="chocolate">
+            <h3>chocolate</h3>
+            <p>₹99+/per .packet
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="noodles" data-price="299+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDV4PMhMXqZ2dCSgwSbbe4jnghDapeF5siVA&s" alt="noodles">
+            <h3>noodles</h3>
+            <p>₹299+/per .packet
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="sweets" data-price="2000+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj4hLitppIq8u2nyEJpb7SkedTSbdNqqKUTg&s" alt="sweets">
+            <h3>sweets</h3>
+            <p>₹2199+/per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+            
+        <div class="product" data-name="ras gulle" data-price="199+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMQwLZzQq-tagrDLt5wjPYKnIYacbc5m2Gsg" alt="ras gulle">
+            <h3>ras gulla</h3>
+            <p>₹199+/per .dabba
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="soap" data-price="20+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTPW76-TG8blwre7SFdu6Or_-Bqn-ixDHoZA&s" alt="soap">
+            <h3>soap</h3>
+            <p>₹20+/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="shampoo" data-price="99+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyg3CWIhrb0WNH07Qr9B49poeCH_VeQobkQw&s" alt="shampoo">
+            <h3>shampoo</h3>
+            <p>₹99/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="oil" data-price="1000+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJU97olQeiVOCfrre-DKfkIAl3geeLDL_OVg&s" alt="oil">
+            <h3>oil(hair use)</h3>
+            <p>₹1000+/per .bottle
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="tooth paste" data-price="10+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwafqgGUTn1CnEcZw9G-OwJauWvG0ObFqz-Q" alt="tooth paste">
+            <h3>tooth paste</h3>
+            <p>₹10+/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="brush" data-price="40+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86IdVRNzmtzWS5Yy3YOvvsyOsIfTqw88rrw&" alt="brush">
+            <h3>brush</h3>
+            <p>₹40+/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="bath wash brush" data-price="70">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmqN7E6dGtkwzHLkGwTrMR4-VGaQ_vi90whA&" alt="brush">
+            <h3>brush(bathroom wash)</h3>
+            <p>₹70/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="mixer" data-price="1500+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO1E3l7sQvZLz0YVGzm6FuAGfLp7DmwO1uTw&s" alt="mixer">
+            <h3>mixer</h3>
+            <p>₹2000/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="shoes" data-price="7500+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAzb5-O8J1HyuOd2jyTAmYkvifUBOAIUxNcA&s" alt="shoes">
+            <h3>shoes</h3>
+            <p>₹7500+/per .jodi
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="bag" data-price="599+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOnl0048wABb2SDln_OMbifRuY9wa-ohFogQ&s" alt="bags">
+            <h3>bags</h3>
+            <p>₹599+/per .pic
+            <button class="add-to-cart">buy now</button>
+        </div>
+         
+        <div class="product" data-name="toys" data-price="999+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnbuh6das1WZ3cTt1xcBqgpw-lttHVdgYYDQ&s" alt="toys">
+            <h3>toys</h3>
+            <p>₹999+/per .toys set
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="notebooks" data-price="999+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ntdOiBt7q4YlUvtzHvJT1qXLi6PlaWpe9A&s" alt="notebooks">
+            <h3>notebooks</h3>
+            <p>₹999+/per .12 piece
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="story books" data-price="99+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO97xjlA3BSKgFS9hREeW3EeXZ5vO-cdjOPg&s" alt="story books">
+            <h3>story books</h3>
+            <p>₹99+/per  . piece
+            <button class="add-to-cart">buy now</button>
+            </div>
+        <div class="product" data-name="ghee" data-price="2500+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ0N80xfX6L9kQqrg-2Z27OgzSW3zKk47qBg&s" alt="ghee">
+            <h3>ghee</h3>
+            <p>₹2900+/per . per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="butter" data-price="2199+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf1I8vzuLOIJ4yqV7LNX9cXwTpYGB2ULBIqg&s+" alt="butter">
+            <h3>butter</h3>
+            <p>₹2199+/per . per .kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="deterjent powder" data-price="89">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeOU5ZmGMJ7xB4wSIMlGyZW9ypYrEfOry5A&s" alt="deterjent powder">
+            <h3>deterjent powder</h3>
+            <p>₹89+/per . per .packet
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="broom" data-price="60+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYIuHjBRmVfdfMcI8J11LPR5lRGMenQm4a0g&s" alt="broom">
+            <h3>broom</h3>
+            <p>₹70+/per . per .piece
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="iron" data-price="5555+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMwGn9PQJ677B9GYbpgi1nJttJgurYCJUvwA&s" alt="iron">
+            <h3>iron</h3>
+            <p>₹7777+/per . per . piece
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="onion" data-price="20">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoOBN15yBt_aUoRy_oEzWR1P3OWIHWoMH8zQ&s" alt="onion">
+            <h3>onion</h3>
+            <p>₹ manikrao kokate hyna free. per . kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="potato" data-price="60">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUXyov4nMm_Xjv8L49Jzl5L779yAYQdFshBw&s" alt="potato">
+            <h3>potato</h3>
+            <p>₹60/per . per . kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="tomato" data-price="10">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgpo9ZXCANE3ld3F8EmNdYqBRSWDhXq3wvLQ&s" alt="tomato">
+            <h3>tomato</h3>
+            <p>₹10/per . per . kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="carrot" data-price="100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKT4EXjUVXXljs-E7JQm61v_RF3wrxdELPLQ&s" alt="carrot">
+            <h3>carrot</h3>
+            <p>₹100/per . per . kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="mango" data-price="35">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc7KtEXTfNb1PVNMz7iRboY7w3gPkLqgaFVg&s" alt="mango">
+            <h3>mango</h3>
+            <p>₹35/per . per . kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="chivda" data-price="55+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7UXXz0XxT8YGqo1_u9hB75jTLCRAElgMM8g&s" alt="chivada">
+            <h3>chivda</h3>
+            <p>₹55/per . per . packet
+            <button class="add-to-cart">buy now</button>
+        </div>
+         <div class="product" data-name="t-shirts" data-price="99+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUW-70vNT2D0t8GPVaeXMm0B5bybKi73OMpQ&s" alt="t-shirts">
+            <h3>t-shirts</h3>
+            <p>₹99+/per . per . piece
+            <button class="add-to-cart">buy now</button>
+        </div>
+        <div class="product" data-name="mashroom" data-price="9999+">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj3gdCCChVedskvkIeFx_KndnJ1DJy1uFeOA&s" alt="mashroom">
+            <h3>mashroom</h3>
+            <p>₹9999+/per . per . kg
+            <button class="add-to-cart">buy now</button>
+        </div>
+       
+        
+
+        
+
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+
+
+
+
+
+       
+    </main>
+
+    <script>
+        let count = 0;
+        let total = 0;
+
+        const cartCount = document.getElementById("cart-count");
+        const cartTotal = document.getElementById("cart-total");
+        const buttons = document.querySelectorAll(".add-to-cart");
+
+        buttons.forEach(btn => {
+            btn.addEventListener("click", () => {
+                const product = btn.closest(".product");
+                const price = parseFloat(product.dataset.price);
+                count++;
+                total += price;
+                cartCount.textContent = count;
+                cartTotal.textContent = total.toFixed(2);
+            });
+        });
+    </script>
+</body>
+</html>
+
